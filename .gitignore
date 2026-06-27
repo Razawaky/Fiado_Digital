@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Banco de dados local
+*.db
+*.sqlite3
+
+# Variáveis de ambiente
+.env
+
+# Editor
+.vscode/
+.idea/
+
+# Docker
+*.log
+
+# Sistema
+.DS_Store
