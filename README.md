@@ -19,6 +19,7 @@ Detalhes e justificativas de cada escolha em [`docs/decisoes-tecnicas.md`](docs/
 - [Regras de Negócio](docs/regras-de-negocio.md)
 - [Decisões Técnicas (ADRs)](docs/decisoes-tecnicas.md)
 - Diagramas UML — em [`docs/diagramas/`](docs/diagramas/)
+- ![Diagrama de Casos de Uso](docs/diagramas/casos-de-uso.drawio.svg)
 
 ## Como rodar
 

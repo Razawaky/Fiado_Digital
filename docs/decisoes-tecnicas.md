@@ -34,3 +34,9 @@
 - **Alternativa considerada**: Hospedagem externa (Render/Railway)
 - **Justificativa**: PC de destino tem acesso root e Docker resolve a falta de Python/dependências instaladas no ambiente de destino.
 - **Observação de segurança**: Não expor a porta na rede Wi-Fi (aberta) sem HTTPS.
+
+## ADR 006 — Controle de Acesso
+
+- **Decisão**: Sem controle de acesso por papel (role-based) nessa versão. Ator único ("Atendente"), todos com as mesmas permissões.
+- **Justificativa**: Sistema operado por poucas pessoas de confiança no balcão, sem necessidade de diferenciação de permissões na v1.
+- **Adendo — gatilho de evolução**: Se um dia for necessário (ex: restringir exclusão de cliente só ao dono), implementar login com papéis (Admin x Atendente) de forma incremental, sem reescrever a estrutura existente.
