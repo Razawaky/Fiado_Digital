@@ -27,3 +27,7 @@
 ## Escalabilidade prevista
 
 - RdN10: O sistema deve ser projetado de forma que, se houver necessidade futura de implementar a função "arquivar cliente", isso possa ser feito de forma simples, sem grandes refatorações
+
+## Exclusão de produto
+
+- RdN11: Ao excluir um produto, o sistema deve pedir confirmação antes de executar a ação (mesmo fluxo de "Confirmar Ação" usado na exclusão de cliente)
