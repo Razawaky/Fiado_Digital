@@ -7,9 +7,11 @@
 | RF01 | Cadastrar nome do cliente |
 | RF02 | Cadastrar produto (nome, valor unitário, categoria) |
 | RF03 | Registrar marcação: cliente, produto, quantidade, data e se foi no crediário ou não |
-| RF04 | Marcar pagamento como PAGO ou PENDENTE |
+| RF04 | Registrar pagamentos vinculados a uma marcação (total ou parcial), com data e valor |
 | RF05 | Guardar registro de confirmação de pagamento por duas semanas |
-| RF06 | Separar visualização por páginas/sessões: pagamentos PAGOS e PENDENTES |
+| RF06 | Separar visualização por páginas/sessões: PAGOS e PENDENTES (marcações parcialmente pagas aparecem em Pendentes) |
+| RF07 | Cadastrar e listar categorias de produtos |
+| RF08 | Registrar log de ações do sistema (quem fez, o quê, em qual tabela e registro) |
 
 ## Requisitos Não Funcionais (RNF)
 
