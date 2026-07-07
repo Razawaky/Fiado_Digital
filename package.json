@@ -1,0 +1,17 @@
+{
+  "name": "fiado-digital",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Razawaky/Fiado_Digital.git",
+  "author": "Razawaky <viniciusduarte564@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.2",
+    "tailwindcss": "^4.3.2"
+  },
+
+  "scripts": {
+    "dev:css": "tailwindcss -i ./app/static/css/input.css -o ./app/static/css/style.css --watch"
+      
+  }
+}

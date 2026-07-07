@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="bg-slate-800 border border-slate-700 rounded-xl p-6 shadow-xl max-w-2xl mx-auto">
+    <h2 class="text-2xl font-bold text-white mb-2">Bem-vindo ao Sistema!</h2>
+    <p class="text-slate-400 mb-6">O setup do Flask + SQLite + Tailwind v4 foi concluído com sucesso.</p>
+    
+    <div class="flex gap-4">
+        <button class="bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-semibold px-4 py-2 rounded-lg transition-all transform hover:scale-105">
+            Novo Cliente
+        </button>
+        <button class="bg-slate-700 hover:bg-slate-600 text-white font-semibold px-4 py-2 rounded-lg transition">
+            Ver Pendências
+        </button>
+    </div>
+</div>
+{% endblock %}
