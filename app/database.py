@@ -10,6 +10,8 @@ SCHEMA_PATH = os.path.join(ROOT_DIR, "database", "schema.sql")
 def get_db_connection(): 
     conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row
+        #força o sqlite a respeitar as FK em toda conexao
+    conn.execute("PRAGMA foreign_keys = ON;")
     return conn
 
 def init_db():
