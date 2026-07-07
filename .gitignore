@@ -1,6 +1,7 @@
 # Python
 __pycache__/
 *.py[cod]
+*$py.class
 *.egg-info/
 .venv/
 venv/
@@ -9,8 +10,13 @@ venv/
 *.db
 *.sqlite3
 
+# Node_modules & yarn
+node_modules/
+yarn-error.log
+
 # Variáveis de ambiente
 .env
+ENV/
 
 # Editor
 .vscode/
